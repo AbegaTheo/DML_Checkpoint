@@ -6,14 +6,12 @@ L’objectif est de **pratiquer l’insertion de données** (`INSERT INTO`) dans
 
 ## 🗂️ Structure du Projet
 
-```dossier
-
+```
 DML_Checkpoint/
 ├── Data_table.png            # Données à insérer
 ├── Modele_relational.png     # Schéma relationnel des tables
 ├── README.md                 # Documentation du projet (vous y êtes !)
 └── schema.sql                # Script SQL pour les Requêtes d'insertion SQL
-
 ```
 
 ---
@@ -89,8 +87,6 @@ VALUES ('C01', 'P02', NULL, 2, 9198);
 INSERT INTO Orders (Customer_id, Product_id, OrderDate, quantity, total_amount)
 VALUES ('C02', 'P01', '28/05/2020', 1, 3299);
 ```
-
-![Script SQL](./schema.sql)
 
 ---
 
